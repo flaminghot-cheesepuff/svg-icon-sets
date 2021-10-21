@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Overpass, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+  padding: 0;
+  margin: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 1.5rem;
+  display: grid;
+  justify-content: center;
+}
+
+svg {
+  max-height: 8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #fff;
+  border: .2rem solid rgba(255, 255, 255, .7);
+  border-radius: .3rem;
+  padding: 1rem;
+}
