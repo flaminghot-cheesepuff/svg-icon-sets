@@ -47,6 +47,10 @@ section {
   margin-left: -12px;
 }
 
+.icon:hover {
+  color: #ff5e3a;
+}
+
 h2 {
   font-size: 1.5rem;
   text-align: center;
@@ -95,7 +99,7 @@ div {
   }
 
   section {
-    width: 10.1rem;
+    width: 10rem;
   }
 
   .icon svg {
@@ -112,9 +116,29 @@ div {
 
 @media screen and (min-width: 62.5em) {
 
+  header {
+    margin-top: 3rem;
+  }
+
   main {
     display: flex;
+    justify-content: space-around;
     gap: 6vmin;
+    margin-left: 1.5rem;
+  }
+
+  section {
+    width: 23em;
+    margin-top: 3em;
+  }
+
+  .icon svg {
+    margin-left: 3rem;
+    margin-right: 6vmin;
+  }
+
+  p {
+    padding-bottom: 0;
   }
 
 }
