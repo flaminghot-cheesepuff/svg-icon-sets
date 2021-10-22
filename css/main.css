@@ -15,12 +15,14 @@ html {
 }
 
 header {
-  padding: 0;
   margin: 1.5rem;
+  margin-top: 1rem;
 }
 
 h1 {
   font-size: 2rem;
+  margin-left: -5px;
+  padding-top: 0;
 }
 
 body {
@@ -30,26 +32,89 @@ body {
 
 main {
   margin: 1.5rem;
-  display: grid;
-  justify-content: center;
 }
 
-svg {
+section {
+  padding-bottom: 1rem;
+}
+
+.icon svg {
   max-height: 8rem;
+  fill: currentColor;
+  align-content: center;
+  padding: 0;
+  margin-top: -6px;
+  margin-left: -12px;
 }
 
 h2 {
   font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0;
+  margin-left: -.1rem;
+  padding-bottom: 0;
+  margin-bottom: 20px;
 }
 
 h3 a {
   text-decoration: none;
   color: #fff;
   border: .2rem solid rgba(255, 255, 255, .7);
-  border-radius: .3rem;
   padding: 1rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin-top: 1em;
+  margin-bottom: -1rem;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 38em) {
+
+  header {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: -.1rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    gap: 6vmin;
+  }
+
+  section {
+    width: 10.1rem;
+  }
+
+  .icon svg {
+    margin-top: 1rem;
+    margin-left: -60px;
+    padding: 0;
+  }
+
+  h3 a {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 62.5em) {
+
+  main {
+    display: flex;
+    gap: 6vmin;
+  }
+
 }
